@@ -1,4 +1,3 @@
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -16,7 +15,6 @@ class TwoSum {
         return new int[] { i, result };
       }
     }
-
     throw new IllegalArgumentException("invalid input");
   }
 }
