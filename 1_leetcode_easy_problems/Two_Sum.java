@@ -9,7 +9,6 @@ class Solution {
       }
       pairIdx.put(num, i);
     }
-
     return new int[] {};
   }
 }
