@@ -5,7 +5,7 @@ public class BinarySearchExample {
         int left = 0, right = arr.length - 1;
 
         while (left <= right) {
-            int mid = left + (right - left) / 2; // Prevents overflow
+            int mid = left + (right - left) / 2; // Prevents 
 
             if (arr[mid] == target) {
                 return mid; // Found
